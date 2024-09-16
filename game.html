@@ -1,0 +1,53 @@
+<!-- Benja Guzzetta -->
+ 
+<!-- The document type for the webpage. -->
+<!DOCTYPE html>
+<!-- The default language for the webpage. -->
+<html lang="en">
+    <!-- The beginning of the header tag. -->
+<head>
+    <!-- The metadata for the webpage. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title of the webpage. -->
+    <title>Cockroach, Foot, Atom Bomb Game</title>
+
+    <!-- The link to the JavaScript file that contains the game function. -->
+    <script src="js/game.js" defer></script>
+
+    <!-- The link to the css file for styling the page. -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- The end of the header tag. -->
+</head>
+<!-- The beginning of the body tag. -->
+<body>
+    <!-- The heading for the webpage. -->
+    <h1>Cockroach, Foot, Atom Bomb Game</h1>
+    <!-- Makes a class for the game container. -->
+    <div class="game-container">
+        <!-- The form for selecting the user's choice and playing the game. -->
+        <form>
+            <!-- The label for the user's choice. -->
+            <label for="userChoice">Choose your move:</label>
+            <!-- The select tag for the dropdown menu, for the user to make their choice. -->
+            <select id="userChoice">
+                <!-- The options in said dropdown menu. -->
+                <option value="cockroach">Cockroach</option>
+                <option value="foot">Foot</option>
+                <option value="atom bomb">Atom Bomb</option>
+            </select>
+            <!-- The button to start the game. -->
+            <button type="button" id="playGame">Play Game</button>
+            <!-- The end of the form tag. -->
+        </form>
+        <!-- The end of the game container division. -->
+    </div>
+    <!-- The container to display the result of the game. -->
+    <div id="gameResult" class="result-container"></div>
+
+    <!-- The image displayed below the result container. -->
+    <img src="C:\Users\benja\OneDrive\Desktop\Game\img.png" alt="Game Image" class="game-image">
+    <!-- The end of body and html tags. -->
+</body>
+</html>

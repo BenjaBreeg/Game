@@ -1,0 +1,81 @@
+/* Benja Guzzetta */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font style for the whole page. */
+    background-color: #000; /* Black background color for the page. */
+    color: #fff; /* White text color for the page. */
+    margin: 0; /* Removes the default margin. */
+    padding: 0; /* Removes the default padding. */
+    text-align: center; /* Center-aligns the text. */
+}
+
+/* Header Styling */
+h1 {
+    color: #ff0000; /* Red color for the header text. */
+    margin-top: 20px; /* The space above the header. */
+}
+
+/* Game-Container styling */
+.game-container {
+    margin: 20px auto; /* Centers the container and adds space around it. */
+    padding: 20px; /* The space inside the container. */
+    border: 2px solid #ff0000; /* Red border around the container. */
+    border-radius: 10px; /* Rounds the corners for the border. */
+    background-color: #222; /* Black background color for the container. */
+    display: block; /* Ensures the container is displayed as a block element. */
+    max-width: 400px; /* The maximum width of the container. */
+}
+
+/* Label styling */
+label {
+    font-size: 1.2em; /* Larger font size for the label. */
+    color: #fff; /* White text color for the label. */
+}
+
+/* Select-Dropdown styling */
+select {
+    padding: 10px; /* Space inside the dropdown. */
+    font-size: 1em; /* Font size for the dropdown text. */
+    color: #000; /* Black text color for the dropdown. */
+    background-color: red; /* Red background color for the dropdown. */
+    border: 1px solid #ff0000; /* Red border around the dropdown. */
+    border-radius: 5px; /* Rounds the corners for the border. */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px; /* The space inside the button. */
+    font-size: 1.2em; /* Larger font size for the button's text. */
+    color: #fff; /* White text color for the button. */
+    background-color: #ff0000; /* Red background color for the button. */
+    border: none; /* Removes the default border. */
+    border-radius: 5px; /* Rounds the corners for the button. */
+    cursor: pointer; /* Pointer cursor on hover. */
+    margin-top: 10px; /* The space above the button. */
+}
+
+button:hover {
+    background-color: #cc0000; /* Darkens the red color on hover */
+}
+
+/* Results-Container styling */
+.result-container {
+    margin: 20px auto; /* This centers the container and adds space around it. */
+    padding: 20px; /* The space inside the container. */
+    border: 2px solid #ff0000; /* Puts a red border around the container. */
+    border-radius: 10px; /* Rounds the corners for the border. */
+    background-color: #222; /* Dark background color for the container. */
+    color: #fff; /* White text color for the user's result. */
+    display: block; /* This ensures the container is displayed as a block element. */
+    max-width: 400px; /* The maximum width of the container. */
+}
+
+/* Image styling */
+.game-image {
+    margin-top: 20px; /* The space above the image. */
+    max-width: 25%; /* This reduces the width to 25% of its container size. */
+    height: auto; /* Maintains the aspect ratio. */
+    border: 2px solid #ff0000; /* Puts a red border around the image. */
+    border-radius: 10px; /* This rounds the corners of the image. */
+}
